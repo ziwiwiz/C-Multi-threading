@@ -33,7 +33,7 @@ int main()
 	std::cout << "joinable:" << t1.joinable()<< ":" << t2.joinable() << ":" << t3.joinable() << ":" << t4.joinable() << std::endl;
 	std::cout << "get_id:" << t1.get_id() << ":" << t2.get_id() << ":" << t3.get_id() << ":" << t4.get_id() << std::endl;
 	std::cout << "native_handle:" << t1.native_handle() << ":" << t2.native_handle() << ":" << t3.native_handle() << ":" << t4.native_handle() << std::endl;
-	std::cout << "hardware_concurrency" <<t1.hardware_concurrency() << ":" << t2.hardware_concurrency() << ":" << t3.hardware_concurrency() << ":" << t4.hardware_concurrency() << std::endl;
+	std::cout << "hardware_concurrency:" <<t1.hardware_concurrency() << ":" << t2.hardware_concurrency() << ":" << t3.hardware_concurrency() << ":" << t4.hardware_concurrency() << std::endl;
 	t2.join();
 	t4.detach();
 	std::cout << n << std::endl;
