@@ -146,7 +146,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="sthread.cpp" />
+    <ClCompile Include="smutex.cpp" />
+    <ClCompile Include="sthread1.cpp" />
+    <ClCompile Include="sthread2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

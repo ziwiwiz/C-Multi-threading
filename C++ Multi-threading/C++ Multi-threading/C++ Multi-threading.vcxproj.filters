@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sthread.cpp">
+    <ClCompile Include="smutex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sthread1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sthread2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
